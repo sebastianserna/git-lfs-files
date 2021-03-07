@@ -42,7 +42,7 @@ git lfs track *.jpg
 
 La primera vez que utilices el comando se creará un archivo `.gitattributes` incluyendo el formato especificado, puedes utilizar el comando cuantas veces quieras para añadir nuevos formatos al archivo.
 
-También puedes crear el archivo `.gitattributes` manualmente y le incluyes los formatos a los que deseas hacer tracking, a continuación encuentras un listado de formatos comunes de archivos de audio, video, imagen, 3D y otros, puedes copiar y pegar en siguiente bloque de texto en tu archivo:
+También puedes crear el archivo `.gitattributes` manualmente y le incluyes los formatos a los que deseas hacer tracking, a continuación encuentras un listado de formatos comunes de archivos de audio, video, imagen, 3D y otros, puedes copiar el siguiente bloque de texto en tu archivo `.gitattributes`:
 
 ```
 *.xcf filter=lfs diff=lfs merge=lfs -text
