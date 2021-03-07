@@ -1,1 +1,1 @@
-# git-lfs-testing
+# Git LFS Files
