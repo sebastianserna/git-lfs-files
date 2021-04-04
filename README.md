@@ -183,6 +183,16 @@ git push
 
 Puedes añadir los archivos de imágenes y multimedia. Tu repositorio ya tiene activado y configurado Git LFS y Github almacenará los archivos con los formatos especificados en `.gitattributes` en su servidor dedicado para Git LFS.
 
+### Paso 9
+
+Luego de añadir los archivos debes hacer commit y verficar que si estén agregadas con el comando:
+
+`git lfs status`
+
+Luego de ver los archivos que se van a incluir puedes hacer push a tu repositorio.
+
+## Observaciones
+
 Las cuentas gratuitas de Github tienen:
 
 - 1GB Storage
