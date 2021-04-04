@@ -187,7 +187,9 @@ Puedes añadir los archivos de imágenes y multimedia. Tu repositorio ya tiene a
 
 Luego de añadir los archivos debes hacer commit y verficar que si estén agregadas con el comando:
 
-`git lfs status`
+```
+git lfs status
+```
 
 Luego de ver los archivos que se van a incluir puedes hacer push a tu repositorio.
 
