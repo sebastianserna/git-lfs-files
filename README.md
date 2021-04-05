@@ -14,7 +14,7 @@ Crear un nuevo repositoro en Github al que le activarás Git LFS.
 
 ### Paso 2 
 
-Clonar repositorio en equipo local
+Clonar o crear un nuevo repositorio en tu equipo local
 
 ### Paso 3
 
@@ -22,12 +22,6 @@ Abrir repositorio en terminal y ejecutar el siguiente comando:
 
 ```
 git lfs install
-```
-
-Si prefieres instalarlo en local puedes utilizar el flag `--local`
-
-```
-git lfs install --local
 ```
 
 ### Paso 4
@@ -128,7 +122,7 @@ git add .gitattributes
 Se hace commit del archivo `.gitattributes`
 
 ```
-git commit -m "Git LFS - Se incluye archivo .gitattributes"
+git commit -m "Git LFS - File .gitattributes included"
 ```
 
 ### Paso 7
@@ -143,9 +137,11 @@ git push
 
 Puedes añadir los archivos de imágenes y multimedia. Tu repositorio ya tiene activado y configurado Git LFS y Github almacenará los archivos con los formatos especificados en `.gitattributes` en su servidor dedicado para Git LFS.
 
+**Nota importante:** si se trata de un repositorio existente que ya tiene archivos en los formatos indicados en el archivo `.gitattributes`, estos no se almacenarán con Git LFS por defecto, debes eliminarlos del repositorio hacer commit y push con los cambios y volver a agregarlos manualmente para que se almacenen con Git LFS.
+
 ### Paso 9
 
-Luego de añadir los archivos debes hacer commit y verficar que si estén agregadas con el comando:
+Luego de añadir los archivos debes hacer commit y verficar que si queden agregados con el comando:
 
 ```
 git lfs status
@@ -163,7 +159,7 @@ Las cuentas gratuitas de Github tienen:
 Puedes verificar tu consumo en:
 https://github.com/settings/billing
 
-En caso de necesitar mayor storage Github ofrece un plan desde 5 USD al mes por 50GB de almacenamiento. 
+En caso de necesitar mayor almacenamiento Github ofrece un plan desde 5 USD al mes por 50GB. 
 
 ---
 
