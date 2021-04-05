@@ -21,6 +21,7 @@
 *.bmp filter=lfs diff=lfs merge=lfs -text
 *.xcf filter=lfs diff=lfs merge=lfs -text
 *.avif filter=lfs diff=lfs merge=lfs -text
+*.kra filter=lfs diff=lfs merge=lfs -text
 
 # Video formats
 *.mov filter=lfs diff=lfs merge=lfs -text
