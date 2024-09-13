@@ -149,6 +149,15 @@ git lfs status
 
 Luego de ver los archivos que se van a incluir puedes hacer push a tu repositorio.
 
+### Paso 10
+
+Para ver los archivos del repositorio haciendo tracking con LFS:
+
+```
+git lfs ls-files -n
+```
+
+
 ## Observaciones
 
 Las cuentas gratuitas de Github tienen:
