@@ -2,6 +2,8 @@
 
 Prueba de repositorio con Git Large File Storage (LFS). Incluye ejemplos de archivos 3D, imágenes, audio, video y otros formatos.
 
+**Nota importante:** Git LFS no funciona para mostrar imágenes o archivos en Github Pages, no lo utilices para cargar imágenes que luego mostrarás en tu sitio web. Si ese es tu caso  debes buscar un servicio de CDN externo.
+
 ## Utilizar Git LFS en tu repositorio
 
 ### Paso 0 
